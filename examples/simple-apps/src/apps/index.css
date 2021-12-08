@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls {
+  margin: 8px;
+}
+
+
+textarea:read-only {
+  background-color: #ccc;
+}
+
+.preview {
+  margin-right: 8px;
+  background-color: gray;
+  width: 320px;
+  height: 200px;
+}

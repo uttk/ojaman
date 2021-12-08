@@ -1,0 +1,18 @@
+{
+  "name": "Ojaman",
+  "version": "0.0.1",
+  "minimum_chrome_version": "10.0",
+  "icons": {},
+  "description": "喋りすぎているヤツを邪魔するブラウザ拡張",
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:*/*", "https://meet.google.com/*"],
+      "js": ["contents.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": ["tabs", "<all_urls>"],
+  "manifest_version": 2,
+  "web_accessible_resources": ["contents_main.js", "contents.css"]
+}

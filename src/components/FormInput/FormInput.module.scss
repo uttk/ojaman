@@ -1,0 +1,23 @@
+.form_input__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input__label {
+  color: #666;
+  font-size: 12px;
+}
+
+.form_input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 8px;
+
+  &:focus {
+    outline: rgb(112, 186, 255) solid 1px;
+    border-color: rgba(170, 170, 170, 0.5);
+  }
+}

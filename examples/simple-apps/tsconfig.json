@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"]
+}
