@@ -90,4 +90,4 @@ $> yarn start
 
 # ライセンス
 
-[MIT](LICENSE "LICENSE")
+[MIT](LICENCE "LICENCE")
